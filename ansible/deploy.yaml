@@ -1,6 +1,8 @@
 - name: Deploy app to Minikube on EC2-B using Docker Hub image
   hosts: minikube
   become: yes
+  vars:
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
   tasks:
 
     - name: Copy Kubernetes deployment file
