@@ -7,7 +7,7 @@
 
     - name: Copy Kubernetes deployment file
       copy:
-        src: /var/lib/jenkins/.jenkins/workspace/Jenkins-ansible-K8s/kubernetes/deploy.yaml
+        src: /var/lib/jenkins/.jenkins/workspace/Jenkins-ansible-K8s/kubernetes/deployment.yaml
         dest: /home/ec2-user/deployment.yaml
 
     - name: Apply Kubernetes manifests
