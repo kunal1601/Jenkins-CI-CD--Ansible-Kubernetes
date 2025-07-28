@@ -39,11 +39,11 @@ devops-cicd-pipeline/
 
 ⚙️ Jenkins executes Ansible playbooks:
 
-Installs Docker (if not present)
+- Installs Docker (if not present)
 
-Builds Docker image locally on EC2
+- Builds Docker image locally on EC2
 
-Deploys app to Kubernetes using Minikube
+- Deploys app to Kubernetes using Minikube
 
 🧱 Kubernetes creates Pod + Service
 
@@ -51,17 +51,17 @@ Deploys app to Kubernetes using Minikube
 
 🧪 How to Run
 1️⃣ Prerequisites
-AWS EC2 instance (Ubuntu/CentOS)
+- AWS EC2 instance (Ubuntu/CentOS)
 
-Minikube installed
+- Minikube installed
 
-Jenkins installed and running
+- Jenkins installed and running
 
-Ansible installed
+- Ansible installed
 
-Python 3 installed
+- Python 3 installed
 
-Docker installed
+- Docker installed
 
 ✅ Accessing the App
 Once the deployment is done, access your app using:
