@@ -30,7 +30,8 @@ devops-cicd-pipeline/
 │   ├── requirements.txt
 │   └── Dockerfile
 └── README.md
-    
+``` 
+
 🚀 Pipeline Workflow
 👨‍💻 Code Push (app.py, Dockerfile, etc.)
 
