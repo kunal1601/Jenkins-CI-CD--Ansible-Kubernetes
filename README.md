@@ -37,11 +37,11 @@ devops-cicd-pipeline/
 
 🔧 Jenkins triggers build
 
-⚙️ Jenkins executes Ansible playbooks:
-
 - Installs Docker (if not present)
 
 - Builds Docker image locally on EC2
+
+⚙️ Jenkins executes Ansible playbooks:
 
 - Deploys app to Kubernetes using Minikube
 
