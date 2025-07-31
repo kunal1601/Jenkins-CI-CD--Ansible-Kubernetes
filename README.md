@@ -67,7 +67,6 @@ devops-cicd-pipeline/
 Once the deployment is done, access your app using:
 http://minikube-ip:30036
 
-📎 GitHub Repo
-🔗 https://github.com/kunal1601/Jenkins-CI-CD--Ansible-Kubernetes.git
+
 
 
